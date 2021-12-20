@@ -1,1 +1,71 @@
-<img src="https://ih1.redbubble.net/image.1094902027.4498/flat,750x1000,075,f.u1.jpg"></img>
+<html>
+	<head>
+		<title>buranyuu</title>
+	</head>
+
+
+
+	<body>
+		<style>
+			canvas {
+				height: 100%;
+			}
+
+			body {
+				margin: 0px;
+			}
+		</style>
+		<canvas id="canvas">
+
+		</canvas>
+		<script>
+			const things = [
+				"guranyuu",
+				"muranyuu",
+				"abanyuu"
+			]
+
+			setInterval(() => {
+				document.title = things[Math.floor(Math.random() * things.length)];
+			}, 500)
+
+			const canvas = document.getElementById("canvas");
+			// jumping around ball in canvas
+			const ctx = canvas.getContext("2d");
+			
+			const width = canvas.width;
+			const height = canvas.height;
+			
+			let x = width / 2;
+			let y = height / 2;
+			let dx = 2;
+			let dy = -2;
+
+			let radius = 2;
+
+
+			function drawBall() {
+				ctx.beginPath();
+				ctx.arc(x, y, radius, 0, Math.PI * radius, false);
+				ctx.fillStyle = "blue";
+				ctx.fill();
+				ctx.closePath();
+			}
+
+			function draw() {
+				drawBall();
+				x += dx;
+				y += dy;
+				if (x + radius > width || x - radius < 0) {
+					dx = -dx;
+				}
+				if (y + radius > height || y - radius < 0) {
+					dy = -dy;
+				}
+				requestAnimationFrame(draw);
+			}
+			draw();			
+
+		</script>
+	</body>
+</html>
