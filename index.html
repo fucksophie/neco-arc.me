@@ -1,71 +1,55 @@
 <html>
 	<head>
-		<title>buranyuu</title>
+		<title>neco-arc discord bot</title>
+		
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="https://unpkg.com/sakura.css/css/sakura.css" type="text/css">
+
+		<meta content="neco-arc discord bot" property="og:title" />
+		<meta content="multifunctional discord bot" property="og:description" />
+		<meta content="https://neco-arc.me" property="og:url" />
+		<meta content="https://neco-arc.me/bottom.png" property="og:image" />
+		<meta content="#ffff00" name="theme-color" />
 	</head>
 
-
-
 	<body>
-		<style>
-			canvas {
-				height: 100%;
-			}
+		<audio id="audio" src="i survived 2007.mp3" preload="auto" >
 
-			body {
-				margin: 0px;
-			}
-		</style>
-		<canvas id="canvas">
+		</audio>
+	
 
-		</canvas>
-		<script>
-			const things = [
-				"guranyuu",
-				"muranyuu",
-				"abanyuu"
-			]
+		<div id="banner">
+			<h3> click me </h3>
+			<img src="https://c.tenor.com/0F1IPiIH2IAAAAAC/chimavara-capivara.gif">
+		</div>
 
-			setInterval(() => {
-				document.title = things[Math.floor(Math.random() * things.length)];
-			}, 500)
+		<div id="rest" hidden>
+			<h1>neco-arc.me</h1>
+			<p>funny multifunctional discord bot</p>
 
-			const canvas = document.getElementById("canvas");
-			// jumping around ball in canvas
-			const ctx = canvas.getContext("2d");
-			
-			const width = canvas.width;
-			const height = canvas.height;
-			
-			let x = width / 2;
-			let y = height / 2;
-			let dx = 2;
-			let dy = -2;
+			<details>
+				<summary>features</summary>
+				<ul>
+					<li>great last.fm integration</li>
+					<li>sending tweets through the bot</li>
+					<li>roleplay commands, /kiss</li>
+					<li>markov chain generating</li>
+					<li>entirely discord.js v13, slash commands</li>
+				</ul>
+			</details>
 
-			let radius = 2;
+			<details>
+				<summary>invite + more</summary>
 
+				<ul>
+					<li><a href="https://neco-arc.me/invite">invite</a></li>
+					<li><a href="https://neco-arc.me/github">github</a></li>
+				</ul>
+			</details>
 
-			function drawBall() {
-				ctx.beginPath();
-				ctx.arc(x, y, radius, 0, Math.PI * radius, false);
-				ctx.fillStyle = "blue";
-				ctx.fill();
-				ctx.closePath();
-			}
+			<img src="bottom.png" id="bottomPng">
+		</div>
 
-			function draw() {
-				drawBall();
-				x += dx;
-				y += dy;
-				if (x + radius > width || x - radius < 0) {
-					dx = -dx;
-				}
-				if (y + radius > height || y - radius < 0) {
-					dy = -dy;
-				}
-				requestAnimationFrame(draw);
-			}
-			draw();			
-
-		</script>
+		<script src="index.js"></script>
 	</body>
 </html>

@@ -1,0 +1,30 @@
+body {
+
+	padding: 0 !important;
+}
+#banner {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#banner > h3 {
+	color: #fff;
+	text-align: center;
+	
+    margin-left: auto;
+    margin-right: auto;
+	position: absolute;
+	pointer-events: none;
+}
+
+#bottomPng {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	margin: 1.5em;
+}
