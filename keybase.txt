@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/yourfriend
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://neco-arc.me
+  * I am yourfriend (https://keybase.io/yourfriend) on keybase.
+  * I have a public key with fingerprint 133A 9696 26CC A8A9 1811  CF18 ADA0 EBCC 72B7 428E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101af2f03aaf4cd76268189158de35fb0d7b9cfb23fffc580f3a9892c991b92b0f30a",
+      "fingerprint": "133a969626cca8a91811cf18ada0ebcc72b7428e",
+      "host": "keybase.io",
+      "key_id": "ada0ebcc72b7428e",
+      "kid": "0101af2f03aaf4cd76268189158de35fb0d7b9cfb23fffc580f3a9892c991b92b0f30a",
+      "uid": "7ebf8b6dbaca6468128682bf72306719",
+      "username": "yourfriend"
+    },
+    "service": {
+      "hostname": "neco-arc.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1640427738,
+  "expire_in": 157680000,
+  "prev": "c9ab0d062b711ae7dd75f0f09f241a9a502c4abe9452395f38923e50223e81a4",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMInAnicrZJZaBNBHMaTWistHlHwhqJLS0XTdmd3szsbKCLiAR4IXkVC48zsTLLa
+7ia7SbTWKIogVDwQFa0+VAS1Pii2otaCtyLGFxEK1VIVpfUAD4SoYKuzpb756DzM
+MP/5/r/55mPujxvlK/FveNk+uqOui/lzd06kfejhl+dNAraNRiHcJGymwwutN6ib
+im42DSEsiEAEiElMlBFiCjE0VVIhgDoIQYPKIYZFQ8M6YViSGWMkBEUmIx3qEtF1
+gHUJ872IhKDATCtGnYRjWimOBTJXqTqHEYIg0gEEgDAAkYFEignRJKwpEqS8MW67
+Xgc3h5FLq0yb1/gmOmzvH/r/7Ds9jNMoZhCrBkYEqQonSVCFEmaaJIuqBnRP6FLH
+Qg2UqxvttMMck1qGkA0KvJ4xCfWi9d4yorEosSuRQ6oaPNMJx07ZxK7nB/FUKuGG
+vcZUY8JTbqE4OsKIYtMyeJC8I0Md17QtIQy4kqRMDwpURVQkTZNhUKBbE6ZDo6an
+CGkqFPnw7qEZjiQ64gGIKk8NAEQ1w9BCTGSiziQFIB2FRIkoCFNdCUmyHmIyD0am
+vMpnCJAieK9KWjZnK9wninGma8YslEo7VMjevR0p9PlLfEWjC7wf5ispDvz9d0d+
+jhmq/rWmI/frwNzO5S8CdblLgx3S41ktDftWzmr89Liqy2j70fb52M45+4p7u7Sv
+g+8/bgu8Le+cEQHz+opqV7z7vujq8VvvP3z7WWP7xn7rTvrLijuPLX6x6XR+wpJF
+ZK/T3zYEN7Vmty9Y3oQCryY8LOxHR5tn55tPPjXknmlixWWfUz114oPm+IfAmW5Y
+s7Tn1Pj8uWzFhVKweNeyW9bOysR1qTBS1nu+5V6P09uy8WLly/apuYpgUebcdPtm
+Mv+6fNWzR3duugu7/QtiM3/D3fggfXNl/6HvA3Jk4MvaawUDe/qE+WKS2HS1UFA6
+qfWws25y7ccp68/Gq5/sODQxP/3GHz50RcE=
+=nXDC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yourfriend
+
+==================================================================
